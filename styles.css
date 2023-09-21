@@ -1,0 +1,342 @@
+body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+
+#body1 {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-image: url("/Images/Starry.jpg");
+  background-size: cover;
+  background-position: center right;
+}
+
+
+#body2 {
+  padding: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/Images/Galaxy.jpg");
+  background-size: cover;
+  background-position: top center right;
+  background-color: antiquewhite;
+}
+
+nav {
+  text-align: end;
+  color: bisque;
+  border: 1px solid rgb(58, 16, 97);
+  border-radius: 20px;
+  background-color: rgb(17, 17, 77);
+}
+
+.container {
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(58, 16, 97);
+  padding: 0%;
+  justify-content: flex-start;
+  border-radius: 17px;
+  margin: 9px 0 10px;
+}
+
+footer {
+  text-align: left;
+  color:rgba(124, 20, 117, 0.88) ;
+  text-shadow: 1px 0px rgba(244, 203, 241, 0.88);
+  margin: 0;
+  padding: 0;
+}
+
+.logoSp {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+
+#laBel {
+  border: groove;
+  border-color: #fc3657;
+}
+
+
+p {
+  line-height: 1.6;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+}
+
+div {
+  padding: 10px 0;
+}
+
+
+.name {
+  padding: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  border-radius: 17px;
+  margin: 9px 0;
+  background-position: center right;
+}
+
+
+.head {
+  text-align: right;
+  font-size: 40px;
+  color: burlywood;
+}
+
+.tribute {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+  margin-bottom: 6px;
+}
+
+.divX {
+  width: 100%;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+}
+
+.ther, .object, .subject {
+  color: #ffffff;
+  background-color: rgba(214, 151, 209, 0.3);
+  box-shadow:  rgba(0, 0, 0, 0.4);
+  flex: 1;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  text-align: center;
+}
+
+.divX h2 {
+  text-align: center; /* Center the text within h2 elements */
+}
+
+.fLex {
+  flex: 1;
+  overflow: hidden;
+  border: none;
+  margin-right: 20px;
+}
+
+.flexpara {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(78, 22, 130);
+  border-radius: 12px;
+}
+
+#img {
+  height: 550px;
+  width: 369px;
+  mix-blend-mode: multiply;
+  border-style: none;
+}
+
+.flexpAra {
+  margin: 40px;
+}
+
+.donate-button {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.35);
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  padding: 15px 30px;
+  border: 2px solid whitesmoke;
+  border-radius: 50px;
+  box-shadow: beige;
+  align-items: center;
+  cursor: pointer;
+  width: auto;
+  opacity: 0.9;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.donate-button:hover {
+  background-color: #ff784e;
+  transform: scale(1.05);
+}
+
+#donate {
+  margin-top: 59px;
+}
+
+.contact-box {
+  width: 100%;
+  text-align: start;
+  border-radius: 10px;
+  color:burlywood;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+input[type=text], input[type=password] {
+  width: 85%;
+  padding: 17px;
+  margin: 5px 2px;
+  display: inline-block;
+  border: none;
+  border-radius: 20px;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(209, 207, 203);
+  outline: none;
+}
+
+.fhead {
+  margin-left: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.heading {
+  text-align: left;
+  font-size: 50px;
+  color: burlywood;
+}
+
+.container2 {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: groove;
+  border-color: thistle;
+  background-image: url(/Images/money.jpg);
+  background-size: cover;
+  margin-bottom: -1px;
+  margin-top: -33px;
+}
+
+.main {
+  background-color: #8e7af7d8;
+  box-shadow: gray 4px 5px;
+  border: none;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+}
+
+.dntHd {
+  padding: 15px 50px;
+  margin-right: 1px;
+  background-color:rgba(0, 253, 253, 0.3);
+  border: none;
+  border-start-start-radius: 30px;
+  border-end-end-radius: 30px;
+}
+
+.basicInfo {
+  padding: 15px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  border: ridge solid black;
+}
+
+.fullName {
+  display: flex;
+  flex-direction: column;
+}
+
+.donateBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.donatebtn {
+  background-color:#ffaa00;
+  color: white;
+  box-shadow: beige;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.donatebtn:hover {
+  opacity: 1;
+  background-color: #0088cc; /* Suggested: Contrasting Blue */
+  transform: scale(1.05);
+}
+
+.tribute {
+  padding: 0px 0px 0px 0px;
+  margin-bottom: -150px;
+
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+#fLexguy {
+  flex: 1;
+  padding: 20px 2px 8% 2px;
+  margin: 6px 4px 0;
+}
+#paRa1 {
+  animation: 0.7s slidein-right;
+  opacity: 0.8;
+  color: blanchedalmond;
+  box-shadow: rgba(67, 71, 85, 0.88) 0px 0px 0.80em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+} 
+#paRa2 {
+  animation:  1.9s slidein-right;
+  opacity: 0.8;
+  color: blanchedalmond;
+  box-shadow: rgba(67, 71, 85, 0.88) 0px 0px 0.80em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+
+#paRa3{
+  animation:  3.1s slidein-right;
+  opacity: 0.8;
+  color: blanchedalmond;
+  box-shadow: rgba(67, 71, 85, 0.88) 0px 0px 0.80em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+} 
+
+#paRa4 {
+  opacity: 0.8;
+  color: blanchedalmond;
+  box-shadow: rgba(67, 71, 85, 0.88) 0px 0px 0.80em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  animation:  4.3s slidein-right;
+}
